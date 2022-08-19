@@ -83,7 +83,7 @@ global.namebot = 'Xiao Botz'
 global.nameown = '「 Oᴡɴᴇʀ 」'
 
 /*Watermark*/
-global.wm = '                「 Xiao Botz ❤ 」'
+global.wm = '                「 Xiao Botz 」'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ Xiao Botz'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -427,7 +427,7 @@ global.htjava = '⫹⫺'
 global.stickpack = '.'
 global.stickauth = `☂︎ Xiao Botz\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = '☂︎ Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'Xiao Botz ♡ Xiaoyu'
+global.author = 'Xiao Botz By Xiaoyu'
 global.multiplier = 10
 
 /*Pesan*/
