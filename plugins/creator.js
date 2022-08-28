@@ -18,8 +18,8 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
 if (command == 'owner') {
   try {
   const sentMsg = await conn.sendContactArray(m.chat, [
-    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `👑 Developer Bot `, `🚫 Don't call me 🥺`, `Xiaoyu@gmail.com`, `🇮🇩 Indonesia`, `🚀 https://Instagram.com/jaka_dnz`, `👤 Gada pawang nih senggol dong 😔`],
-    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🔥 Bot WhatsApp 🐣`, `📵 Don't spam/call me 😢`, `Nothing`, `🇮🇩 Indonesia`, `🚀 https://Xiaoyu.com`, `🤖 Hanya bot biasa yang kadang suka eror ☺`]
+    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `👑 Developer Bot `, `🚫 Don't call me 🥺`, `Xiaoyu@gmail.com`, `🇷🇺 Russia`, `🚀 https://Instagram.com/jaka_dnz`, `Gk ada ayang nih, deketin dong 😔`],
+    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🔥 Bot WhatsApp 🐣`, `📵 Don't spam/call me 😢`, `Nothing`, `🇷🇺 Russia`, `🚀 https://Xiaoyu.com`, `🤖 Hanya bot biasa yang kadang suka eror ☺`]
   ], fkontak)
   await conn.reply(m.chat, `Halo kak @${m.sender.split(`@`)[0]} itu nomor ownerku , jangan di spam ya ka😉`, sentMsg, {mentions: [m.sender]})
   } catch {
@@ -31,6 +31,6 @@ if (command == 'owner') {
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 
-handler.command = /^(owner|pengembang|creator)$/i
+handler.command = /^(owner)$/i
 
 export default handler
