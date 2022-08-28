@@ -6,16 +6,16 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['6285785694474', '️Oᴡɴᴇʀ One', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Two', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Three', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Four', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Five', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Six', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Seven', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Eight', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Nine', true],
-  ['6285785694474', '️Oᴡɴᴇʀ Teen', true]
+  ['79967781119', '️Oᴡɴᴇʀ One', true],
+  ['79967781119', '️Oᴡɴᴇʀ Two', true],
+  ['79967781119', '️Oᴡɴᴇʀ Three', true],
+  ['79967781119', '️Oᴡɴᴇʀ Four', true],
+  ['79967781119', '️Oᴡɴᴇʀ Five', true],
+  ['79967781119', '️Oᴡɴᴇʀ Six', true],
+  ['79967781119', '️Oᴡɴᴇʀ Seven', true],
+  ['79967781119', '️Oᴡɴᴇʀ Eight', true],
+  ['79967781119', '️Oᴡɴᴇʀ Nine', true],
+  ['79967781119', '️Oᴡɴᴇʀ Teen', true]
 ]
 global.mods = []
 global.prems = []
@@ -77,8 +77,8 @@ global.xckey = 'BOhjM2hUVn'
 */
 
 /*Number*/
-global.nomorbot = '6281335334848'
-global.nomorown = '6285785694474'
+global.nomorbot = '79111259391'
+global.nomorown = '79967781119'
 global.namebot = 'Xiao Botz'
 global.nameown = '「 Oᴡɴᴇʀ 」'
 
