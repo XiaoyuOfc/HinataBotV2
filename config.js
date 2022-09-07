@@ -6,16 +6,16 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['79967781119', '️Oᴡɴᴇʀ One', true],
-  ['79967781119', '️Oᴡɴᴇʀ Two', true],
-  ['79967781119', '️Oᴡɴᴇʀ Three', true],
-  ['79967781119', '️Oᴡɴᴇʀ Four', true],
-  ['79967781119', '️Oᴡɴᴇʀ Five', true],
-  ['79967781119', '️Oᴡɴᴇʀ Six', true],
-  ['79967781119', '️Oᴡɴᴇʀ Seven', true],
-  ['79967781119', '️Oᴡɴᴇʀ Eight', true],
-  ['79967781119', '️Oᴡɴᴇʀ Nine', true],
-  ['79967781119', '️Oᴡɴᴇʀ Teen', true]
+  ['66615143033', '️Oᴡɴᴇʀ One', true],
+  ['66615143033', '️Oᴡɴᴇʀ Two', true],
+  ['66615143033', '️Oᴡɴᴇʀ Three', true],
+  ['66615143033', '️Oᴡɴᴇʀ Four', true],
+  ['66615143033', '️Oᴡɴᴇʀ Five', true],
+  ['66615143033', '️Oᴡɴᴇʀ Six', true],
+  ['66615143033', '️Oᴡɴᴇʀ Seven', true],
+  ['66615143033', '️Oᴡɴᴇʀ Eight', true],
+  ['66615143033', '️Oᴡɴᴇʀ Nine', true],
+  ['66615143033', '️Oᴡɴᴇʀ Teen', true]
 ]
 global.mods = []
 global.prems = []
@@ -77,15 +77,15 @@ global.xckey = 'BOhjM2hUVn'
 */
 
 /*Number*/
-global.nomorbot = '79111259391'
-global.nomorown = '79967781119'
-global.namebot = 'Xiao Botz'
+global.nomorbot = '6281228503965'
+global.nomorown = '66615143033'
+global.namebot = 'Ndra Botz'
 global.nameown = '「 Oᴡɴᴇʀ 」'
 
 /*Watermark*/
-global.wm = '                「 Xiao Botz 」'
+global.wm = '                「 Ndra Botz 」'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ Xiao Botz'
+global.wm3 = '⫹⫺ Ndra Botz'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -380,11 +380,11 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
 /*Link*/
-global.sig = 'https://instagram.com/jaka_dnz'
-global.sgh = 'https://github.com/XiaoyuOfc'
-global.sgc = 'https://chat.whatsapp.com/Bv4eK4rCv8i5DQCNDQGQYA'
-global.sdc = 'https://discord.com/Xiaoyu'
-global.snh = 'https://tiktok.com/@Xiaoyu'
+global.sig = 'https://instagram.com/notting'
+global.sgh = 'https://github.com/afandra'
+global.sgc = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv'
+global.sdc = 'https://discord.com/Fandra'
+global.snh = 'https://tiktok.com/@Fandra'
 
 /*Nsfw*/
 global.optsnsfw = true
@@ -425,9 +425,9 @@ global.htjava = '⫹⫺'
 
 /*Watermark*/
 global.stickpack = '.'
-global.stickauth = `☂︎ Xiao Botz\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎ Ndra Botz\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = '☂︎ Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'Xiao Botz By Xiaoyu'
+global.author = 'Ndra Botz By Nicko'
 global.multiplier = 10
 
 /*Pesan*/
