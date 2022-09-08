@@ -34,19 +34,27 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
      }
      let math = max - xp
      let mim_ = ["application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","application/vnd.openxmlformats-officedocument.wordprocessingml.document","text/rtf"]
-     let lin_ = ["https://www.youtube.com","https://www.instagram.com","https://www.facebook.com"]
+     let lin_ = ["https://youtu.be/1ytRik_kO2s"]
      
-  let cap = `*${htki} Information ${htka}*
+  let cap = `*${htki} Nokos WhatsApp ${htka}*
 
-*🏷️ Nama:* *${name}*
-*💲 Money:* *RP* ${money}
-*🏆 Level* ${level}
-*🎋 Role:* ${role}
-*🧬 XP:* TOTAL ${exp} (${exp - min} / ${xp}) [${math <= 0 ? `Siap untuk *${usedPrefix}levelup*` : `${math} XP lagi untuk levelup`}]
-*📨 Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n Ketik *${usedPrefix}inv* untuk melihat Inventory RPG
-${cmenua}`
+Ready nokos WhatsApp
+Harga
+Indo +62 5k
+Russia+7 5k
+Thailand +66 5k
+*Seperti Owner Saya +66*
+Canada +1 5k
+*Dan lain lain*
+Minat? Hubungi wa.me/+66615143033
 
-let weem = `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner`
+Apa itu nokos?
+*Nokos adalah Nomor kosong yang dijual untuk di verifikasi ke WhatsApp*
+Jika anda membeli nokos di saya,
+Saya akan kasih nomor, dan anda harus mendaftarkan nomornya ke WhatsApp,
+*Nanti saya kasih codenya*`
+
+let weem = `📮 *Note:* Bot ini gratis, Jika ada yang menjualnya, jangan percaya, Culik aja bot nya ke grup kalian, kalo mau:v`
     await conn.sendButton(m.chat, cap, weem, Buffer.alloc(0), [[em.getRandom() + ' All Menu', usedPrefix + 'allmenu'], [em.getRandom() + ' List Menu', usedPrefix + 'menulist']], m, { mimetype: mim_.getRandom(), fileName: ucapan, pageCount: fpagedoc, fileLength: fsizedoc, seconds: fsizedoc, jpegThumbnail: await( await fetch(thumbnailUrl.getRandom())).buffer(), contextInfo: {
           externalAdReply :{
           showAdAttribution: true,
