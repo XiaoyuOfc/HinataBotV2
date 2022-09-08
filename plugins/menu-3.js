@@ -223,7 +223,7 @@ let handler = async (m, { conn, command, groupMetadata, usedPrefix: _p, __dirnam
     },{
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
-	    {title: `🔖 SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
+	    {title: `🔖 BOT INI GRATIS`, rowId: ".mengpay Ngapain di klik anjay:v", description: "Jika ada yang menjualnya jangan percaya"},
 	    {title: `🌟 LIST PREMIUM`, rowId: ".premlist", description: "Menampilkan list harga premium"},
 	    {title: `💹 DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
 	]
@@ -388,7 +388,7 @@ const listMessage = {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, hwaifu.getRandom(), gcwangsaf, em.getRandom() + ' Hinata Group', who.split`@`[0], em.getRandom() + ' Your Number', [
+    conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, hwaifu.getRandom(), gcwangsaf, em.getRandom() + 'Ndra Group', who.split`@`[0], em.getRandom() + ' Your Number', [
       ['🎀 Menu', '/menu'],
       ['🪄 Owner', '/owner'],
       ['🔖 Test', '/ping']
